@@ -1,0 +1,287 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    /* font-family: serif; */
+    box-sizing: border-box;
+    
+}
+
+body
+{
+    /* width: 100%; */
+    background-color: gray;
+}
+
+html,body
+{
+    width: 100%;
+}
+
+.container
+{
+    /* border: 2px solid rgb(163, 34, 55);s */
+    display: flex;
+    flex-wrap: wrap;
+    padding:20px;
+    /* margin: 20px; */
+    background-color:black;
+    height: 100px;
+    width: 100%;
+    color: white;
+    /* margin-left: 50px; */
+}
+
+.content img
+{
+    height: 100%;
+    width:100%;
+}
+.content
+{
+    /* border: 2px solid red; */
+    height: 60px;
+    width: 150px;
+}
+
+.content1
+{
+    /* border: 2px solid purple; */
+    /* padding: 20px; */
+    margin: 10px;
+    width: 200px;
+    /* background-color: black; */
+    height: 40px;
+
+}
+
+.content2
+{
+    /* border: 2px solid green; */
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 80px;
+    padding-bottom: 50px;
+    /* position: relative; */
+}
+
+ .content2 [type=text]
+{
+    width: 1000px;
+    height: 45px;
+    background-color: white;
+}
+
+
+ .content .fa fa-search
+{
+/* padding-top: 90px; */
+margin-top: 20px;
+border: 2px solid red;
+}
+
+/* .content3
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content3 ul li
+{
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+.content1 .location-dot
+{
+height: 100px;
+
+}
+
+.content4
+{
+    /* border: 2px solid orange; */
+    margin-right: 30px;
+    /* display: flex; */
+    /* padding: 10px; */
+    /* margin-right:20px ; */
+    /* margin: 20px; */
+    margin-bottom: 20px;
+    margin-top: 2px;
+    height: 40px;
+    width: -10px;
+    padding:0px ;
+    margin: 10px;
+    padding-right:90px ;
+
+    
+}
+
+.content4 ul{
+    display: flex;
+
+}
+.content4 ul li 
+{
+ list-style-type: none;
+ text-align:left;
+ display:flex;
+ /* padding-bottom: -20px; */
+ /* padding-top:-30px; */
+ /* padding-left: -30px; */
+ padding-left:20px;
+}
+
+.content4 span{
+    margin-top: 1px;
+    margin-left: -45px;
+    /* padding-right:90px ; */
+    padding-left:20px ;
+
+}
+
+.content4 ul li img
+{
+    height: 19px;
+    width: 125px;
+    margin-right: 30px;
+    padding-left: 95px;
+    /* border: 2px solid blue; */
+}
+
+.content6
+{
+    /* border: 2px solid blue; */
+    margin-left: 10px;
+    /* padding-top: 56px; */
+    margin-top: -2px;
+    padding-left: 30px;
+
+    
+}
+
+.content6 .hh
+{
+    font-weight: bold;
+}
+
+.content6 h4
+{
+    font-weight: normal;
+    font-size: 20px;
+}
+.content7
+{
+    padding: 20px;
+    /* border: 2px orchid; */
+    height: 100px;
+    /* padding-top: 50px; */
+    padding-top:20px;
+    padding-right: 20px;
+    
+}
+
+.content7 .fa fa-shopping-cart
+{
+    margin-left: 200px;
+    height: 200px;
+    width: 70px;
+    border: 2px solid red;
+    display: inline-block;
+}
+
+.content5 
+{
+    /* border: 2px olive; */
+    text-transform: capitalize;
+    font-weight: normal;
+}
+
+
+.content5 h4
+{
+    font-size: 15px;
+    padding-right: 20px;
+}
+
+
+.container1
+{
+    /* border: 2px solid rgb(138, 9, 9); */
+    height: 80px;
+    /* width: 900px; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* background-color: navy; */
+    margin: 0px auto;
+    margin-top: 0px;
+    background-color: rgba(0, 0, 0, 0.753);
+    color: white;
+
+}
+.content3
+{
+    width: 100%;
+    /* display: inline-block; */
+    /* flex-wrap: wrap; */
+
+}
+
+.content3 ul li
+{
+    display:inline-block;
+    /* flex-wrap: wrap; */
+    padding: 2px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left:15px;
+    margin-top:20px;
+    /* margin-left: 20px; */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.content3 .fa fa-bars
+{
+    /* border: 2px solid rgb(224, 224, 11); */
+    height: 200px;
+    width: 200px;
+}
+
+.content9
+{
+    /* display: flex; */
+    margin-right: 30px;
+    display: flex;
+    padding:10px;
+    margin-bottom: 90px;
+    margin-top: 20px;
+    
+}
+
+.content8
+{
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* padding-left: 100px;
+     */
+     margin-left:-150px ;
+     margin-bottom: 50px;
+     width: 100px;
+     margin-right: 30px;
+     margin-top: 20px;
+}
+
+.content10 
+{
+    height: 45px;
+    width: 45px;
+    background-color: orange;
+    /* border: 2px solid red; */
+    /* position: absolute; */
+    margin-left: -10px;
+    /* text-align: center; */
+    padding: 10px;
+    margin-bottom: 3px;
+}

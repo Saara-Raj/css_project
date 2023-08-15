@@ -1,0 +1,44 @@
+*
+{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html,body
+{
+    width: 100%;
+}
+
+body
+{
+    background-color: lightcyan;
+}
+
+.content
+{
+    margin:50px 50px;
+    border: 2px solid orchid;
+}
+
+h1::before
+{
+content: "hello students ";
+}
+
+h1::after
+{
+    content: "MERN full stack class. ";
+}
+
+.content1
+{
+    border: 2px solid black;
+    margin: 50px 50px;
+}
+
+h5::before
+{
+    content: "miss";
+}

@@ -1,0 +1,49 @@
+
+html,body{
+    width: 100%;
+
+}
+body
+{
+    background-color: lightgray;
+}
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.a-card
+{
+   padding: 20px;
+    border: 2px solid black;
+    width: 400px;
+    margin: 50px auto;
+    /* height: 600px; */
+}
+.a-card .parent
+{
+    display: flex;
+    flex-wrap: wrap;
+   
+   justify-content: center;
+   
+    
+}
+
+.a-card .child
+{
+
+/* height: 100px; */
+/* width: 700px; */
+margin: 10px;
+width: 150px;
+}
+
+.child img
+{
+   
+    width: 100%;
+    
+}

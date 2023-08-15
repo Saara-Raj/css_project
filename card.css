@@ -1,0 +1,41 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+html,body
+{
+    width: 100%;
+}
+
+.nature
+{
+    width: 400px;
+    border: 5px solid black;
+    height: 300px;
+    /* padding: px; */
+    /* margin: 10px; */
+    text-align: center;
+   margin-left: 35%;
+   margin-top: 30px;
+   text-transform: uppercase;
+   padding: 10px;
+   border-radius: 60px;
+   background-color: bisque;
+}
+.nature img
+{
+    /* padding: 100px; */
+    height: 200px;
+    padding: 20px;
+    border-radius: 100px;
+}
+.nature p
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: purple;
+}

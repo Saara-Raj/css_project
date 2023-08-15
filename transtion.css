@@ -1,0 +1,29 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+html,body
+{
+    width: 100%;
+}
+body
+{
+    background-color: lightgray;
+}
+div
+{
+    border: 3px solid red;
+    width: 50px;
+    margin: 50% auto;
+    position: relative;
+}
+div input
+{
+    border: 2px solid blue;
+    width: 180px;
+    position: absolute;
+    left: 150px;
+}

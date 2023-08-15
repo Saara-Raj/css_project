@@ -1,0 +1,26 @@
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+.test
+{
+    border: 2px solid rgba(255, 0, 0, 0.658);
+    width:200px;
+    height: 300px;
+    text-align: center;
+    margin: 100% auto;
+    background:red;
+}
+.test h2
+{
+    text-align: center;
+    text-transform: capitalize;
+}
+.test ol
+{
+    list-style:none;
+    text-align: center;
+}

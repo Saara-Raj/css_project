@@ -1,0 +1,55 @@
+/* element selector */
+/* (priority goes to the next termed selectors) */
+/* p
+{
+    color:green;
+    font-size:20px;
+    font-style: italic;
+} */
+/* group selector */
+/* p,span
+{
+    color: floralwhite;
+    background-color:black;
+} */
+/* class selector */
+/* p.saara
+{
+    color: blueviolet;
+} */
+
+/* generic selector */
+/* .saara
+{
+    color:aquamarine;
+    background: #000;
+} */
+
+/* id selector */
+/* #madhushree
+{
+    color: black;
+    background: bisque;
+} */
+
+/* attribute selector */
+/* input[ type=password]
+{
+    background-color:red;
+    width: 1500px;
+    display:  block;
+} */
+
+/* child selector */
+div p
+ {
+    color:forestgreen;
+    word-spacing: 10px;
+    text-shadow: 10px 5px 5px #000;
+    text-align: center;
+}
+div > a
+{
+    color:red;
+    
+}

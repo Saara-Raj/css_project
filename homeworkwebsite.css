@@ -1,0 +1,103 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+ 
+html,body
+{
+    width: 100%;
+}
+
+nav
+{
+    /* border: 2px solid red; */
+    /* margin:50px; */
+    background-color: white;
+
+    
+    
+}
+ nav a 
+ {
+    text-decoration: none;
+    text-transform: capitalize;
+    /* background-image: url(https://media.istockphoto.com/id/1319031310/photo/doctor-writing-a-medical-prescription.jpg?s=1024x1024&w=is&k=20&c=nChrkueWF_kh09Gsm_cjWYAY1BnyQ3XMt9ITykBiIYQ=);
+    background-repeat: no-repeat;
+    background-size:100% 100% ;
+    background-attachment: fixed; */
+
+   
+    
+ }
+ nav ul li
+ {
+    display: inline;
+    margin: 20px;
+    text-transform: capitalize;
+   
+ }
+ nav ul
+ {
+    display: inline-block;
+    padding: 20px;
+    
+ }
+
+ nav button
+ {
+    padding: 14px;
+    margin: 10px;
+    background-color: rgb(22, 194, 206);
+    color: white;
+    border-radius: 10px;
+ }
+.logo
+{
+    color: aqua;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+/* .hai h3
+{
+  margin:   -750px 50px auto;
+  
+} */
+ /* .hello img{
+    height: 900px;
+    width: 100%;
+ } */
+.hai
+{
+    border-top: 2px  solid black;
+    height: 150px;
+    margin: -350px auto;
+    background-color:white;
+    width: 700px;
+    text-align: center;
+}
+.hello{
+    background-image: url(./doc.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    height: 300px;
+    /* padding: 40px; */
+}
+.hai  h3{
+    margin-top: 20px;
+}
+.parent
+{
+    height: 62px;
+    width: 100%;
+}
+.para p
+{
+    background-color: white;
+}

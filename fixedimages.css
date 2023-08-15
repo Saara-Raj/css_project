@@ -1,0 +1,41 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+html,body
+{
+    width: 100%;
+}
+
+.banner
+{
+    /* background-color: red; */
+    /* border: 100px; */
+    padding: 200px;
+    /* text-align: left; */
+    background-image:linear-gradient(#0000003b,#00000049),url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg);
+    /* margin: 3px; */
+    /* height: 100%; */
+    /* width: 100%; */
+    background-repeat: no-repeat;
+    background-size:100% 100% ;
+    background-attachment: fixed;
+
+
+}
+
+.banner h1
+{
+    color: aliceblue;
+
+}
+ .banner a
+ {
+    color: azure;
+    text-decoration: none;
+    margin-left:50px ;
+ }

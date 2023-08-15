@@ -1,0 +1,41 @@
+.button
+{
+    margin:50px;
+    border:none;
+    border-radius:24px;
+    padding:15px 38px;
+    color: violet;
+    background-color: black;
+}
+.btn
+{
+    margin: 50px;
+    border: 2px;
+    padding:15px 38px;
+    color: black;
+    background-color: pink;
+}
+.btn-red
+{
+margin:50px;
+border-radius: 20px;
+padding: 15px 38px;
+color: blueviolet;
+background-color: aqua;
+}
+.btn-green
+{
+margin: 50px;
+padding:20px; 
+border-radius: 30px;
+color: black;
+background-color: white;
+}
+.btn-yellow
+{
+    margin: 40px;
+    padding: 20px;
+    border-radius: 30px;
+    color: black;
+    background: pink;
+}

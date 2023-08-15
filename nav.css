@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&family=Rajdhani:wght@300&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+body
+{
+    background-color: lightgrey;
+    margin: 20px auto;
+}
+html,body
+{
+    width: 100%;
+}
+ul
+{
+    display: flex;
+    text-decoration: none;
+}
+ul li
+{
+    padding:20px;
+    list-style-type: none;
+}
+ul li a
+{
+    text-decoration: none;
+    color:black;
+}
+.child
+{
+    /* border: 2px solid red; */
+    display: flex;
+    margin-bottom: 40px;
+    background-color: white;
+    margin-top: -21px;
+}
+.child .anchor
+{
+    border: 2px solid green ;
+}
+.parent
+{
+    display: flex;
+    /* border: 2px solid purple; */
+    width: 69%;
+    padding: 50px;
+    
+}
+.child-2 img
+{
+    height: 400px;
+    width: 400px;
+}
+.child-1 p
+{
+    text-align:left;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.child-1 h1
+{
+    font-size: 40px;
+    padding:10px;
+    color:blue;
+    padding-top: 0px;
+    font-family: 'Edu SA Beginner', cursive;
+}
+.child-1 .anchor-1
+{
+    text-decoration: none;
+    border-radius: 10px;
+    color: rgb(244, 244, 250);
+    background-color: rgb(233, 26, 26);
+        
+}
+.child .anchor
+{
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    background-color: red;
+    border-radius: 20px;
+}
+.parent .child-1
+{
+    padding-top: 20px;
+}

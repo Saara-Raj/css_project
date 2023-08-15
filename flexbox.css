@@ -1,0 +1,31 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+html,body
+{
+    width:100%
+}
+
+section
+{
+    border: 2px solid black;
+    height: 500px;
+    width: 765px;
+    display: flex;
+    color: green;
+    flex-wrap: wrap;
+   /* align-content: center;
+   align-items: center; */
+}
+section div
+{
+    height: 200px;
+    width: 200px;
+    background-color: orange;
+    margin: 20px;
+    color: rgba(0, 0, 0, 0.925);
+}

@@ -1,0 +1,96 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+body
+{
+    background-color: rgb(199, 142, 142);
+}
+html,body
+{
+    width: 100%
+}
+.saara
+{
+    margin: 50px auto;
+    height: 500px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    justify-content: space-between;
+}
+.address
+{
+    /* border: 2px solid red; */
+    height: 100%;
+    width: 27%;
+    padding: 40px 40px;
+}
+.formtag
+{
+    /* border: 2px solid brown; */
+    width: 50%;
+    height: 80%;
+    justify-content: space-between;
+}
+.formtag [required]
+{
+    /* border: 2px solid purple; */
+    height: 50px;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom:40px ;
+
+}
+.formtag{
+    padding: 50px;
+}
+.address h1
+{
+    padding-top: 40px;
+    font-size: 30px;
+    padding-left: 20px;
+    
+}
+.address p
+{
+    padding-top: 7px;
+    font-size: 18px;
+    line-height: 30px;
+    padding-left: 20px;
+}
+.first
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* border: 5px solid gray; */
+    width:98%;
+    height: 30px;
+}
+.first .child
+{ 
+    /* border: 2px solid  blue; */
+    height: 50px;
+    width: 48%;
+}
+.formtag>textarea{
+    width: 100%;
+}
+.formtag a{
+    /* border: 2px solid pink; */
+    background-color: green;
+    display: block;
+    margin: 30px auto;
+    width: 150px;
+    text-decoration: none;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: aliceblue;
+}
